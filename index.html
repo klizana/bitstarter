@@ -4,13 +4,13 @@
 		<meta charset="utf8">
 		<title>My First Bitstarter</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link type="text/css" rel="stylesheet" href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css">
+		<link type="text/css" rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
+  	<link type="text/css" rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css"> 
+    <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css">
+    <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
+    <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js"></script>
 		<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic">
     <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700,800">
-    <link type="text/css"  rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css">
-    <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js"></script>
-    <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
-    <link type="text/css" rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">	
 
 		<style type="text/css">
 
@@ -157,41 +157,54 @@
 			
 			<!-- We define a new 'actions' div to contain statistics, order and share buttons. -->
 			<div class="span5 actions">
-				<div class="span8 offset2">
-					<div class="statistics">
-						<div class="span4">
-							<!-- linediv-l and linediv-r give dividing lines that look different in horizontal and vertical layouts, illustrating media querys. -->
-							<div class="linediv-l">
-								<h3>800</h3><p>backers</p>
+				<div class="row-fluid">
+					<div class="span8 offset2">
+						<div class="statistics">
+							<div class="span4">
+								<!-- linediv-l and linediv-r give dividing lines that look different in horizontal and vertical layouts, illustrating media querys. -->
+								<div class="linediv-l">
+									<h3>800</h3><p>backers</p>
+								</div>
 							</div>
-						</div>
-						<div class="span4">
-							<div class="linediv-c">
-								<h3>$1,700</h3><p>of $15,000</p>
+							<div class="span4">
+								<div class="linediv-c">
+									<h3>$1,700</h3><p>of $15,000</p>
+								</div>
 							</div>
-						</div>
-						<div class="span4">
-							<div class="linediv-r">
-								<h3>30</h3><p>days left</p>
+							<div class="span4">
+								<div class="linediv-r">
+									<h3>30</h3><p>days left</p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="span10 offset1">
-					<!-- Bootstrap progress bar -->
-					<!-- http://twitter.github.io/bootstrap/components.html#progress -->
-					<div class="thermometer progress active">
-						<div class="bar bar-success" style="width: 11%"></div>
-						<div class="bar bar-warning" style="width: 89%"></div>
+				<div class="row-fluid">
+					<div class="span10 offset1">
+						<!-- Bootstrap progress bar -->
+						<!-- http://twitter.github.io/bootstrap/components.html#progress -->
+						<div class="thermometer progress active">
+							<div class="bar bar-success" style="width: 11%"></div>
+							<div class="bar bar-warning" style="width: 89%"></div>
+						</div>
 					</div>
 				</div>
-				<div class="span6 offset3 order">
-					<!-- standard bootstrap button -->
-					<!-- http://twitter.github.io/bootstrap/base-css.html#buttons -->
-					<button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
-					<button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook </button>	
-				</div>
-			</div>	
+				<div class="row-fluid">
+          <div class="span6 offset3 order">
+            <!-- Standard Bootstrap button. -->
+            <!-- http://twitter.github.io/bootstrap/base-css.html#buttons -->
+            <button class="btn btn-success btn-large">Preorder</button>
+        	</div>
+        </div>
+				<div class="row-fluid">
+					<div class="span8 offset2 order">
+						<!-- standard bootstrap button -->
+						<!-- http://twitter.github.io/bootstrap/base-css.html#buttons -->
+						<button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
+						<button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook </button>	
+					</div>
+				</div>	
+			</div>
 		</div>	
 		
 		<!-- Beyond this part the marketing copy begins-->
@@ -244,7 +257,7 @@ is lacus. Donec ut tellus et erat iaculis condimentum.
 				<div class="accordion" id="accordion2">
 					<div class="accordion-group">
 						<div class="accordion-heading">
-							<a class="accordion-toggle" data-toogle="collapse" data-parent="#accordion2" href="#collapseOne">
+							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
 							Who is Rita Millers?
 							</a>
 						</div>
@@ -256,7 +269,7 @@ is lacus. Donec ut tellus et erat iaculis condimentum.
 					</div>
 					<div class="accordion-group">
 						<div class="accordion-heading">
-							<a class="accordion-toggle" data-toogle="collapse" data-parent="#accordion2" href="#collapseTwo">
+							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
 								Shipping information
 							</a>
 						</div>
